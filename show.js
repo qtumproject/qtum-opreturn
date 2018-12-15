@@ -87,7 +87,11 @@ async function show(rpc, options) {
                     // console.log('output is %o', out)
 
                     let text = hexToText(out.scriptPubKey.asm.substring(10))
-                    console.log(txid, k, text)
+                    console.log({
+                        txid: txid, 
+                        vout: k, 
+                        script: out.scriptPubKey.asm, 
+                        text: text})
                 }
             }
         }

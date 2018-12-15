@@ -79,5 +79,9 @@ Options are:
   rpcpassword: 'opreturn',
   rpcport: '13889',
   number: 100 }
-53702863d8bb22b98b99546c117dab1c238dab85b3f70d876dcbda27bf478f35 0 I love 量子
+{ txid:
+   '53702863d8bb22b98b99546c117dab1c238dab85b3f70d876dcbda27bf478f35',
+  vout: 0,
+  script: 'OP_RETURN 49206c6f766520e9878fe5ad90',
+  text: 'I love 量子' }
 ```
